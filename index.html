@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{text-decoration: none;
+        color: black;
+        margin: 0;
+    }
+    body{ background-color: bisque;}
+    .navigation{
+        display: flex;
+        background-color: rgb(235, 168, 87);
+        }
+    .navigation a:hover  {
+        background-color: rgb(255, 140, 0);
+    }  
+    h2:hover{background-color: rgb(255, 140, 0);}
+    .dropdown{margin-left: 3vw;}
+    .menu{
+        margin-top: 2vh;
+        display: none;
+    }
+   .menu:hover
+    {display:inline-block;}
+    .option{margin-top: 2vh;}
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <div class="home"><a href="index.html"><h2>Home</h2></a></div>
+        <div class="dropdown">
+           <h2>Dropdown</h2>
+        <div class="menu">
+            <div class="option">
+                <a href="https://anasnavsari.github.io/my-portfolio/" target="_blank"> My my-portfolio</a>
+            </div> 
+            <div class="option"> 
+                <a href="https://anasnavsari.github.io/clothy/index.html" target="_blank">clothy</a>
+            </div>
+           
+        </div>
+
+         <select name="dropdown" id="dropdown">
+            <option value="my-portfolio"><a href="https://anasnavsari.github.io/my-portfolio/">my -portfolio</a></option>
+            <option value="clothy"><a href="https://anasnavsari.github.io/clothy/index.html">clothy</a></option>
+         </select> 
+           
+        </div>
+       
+    </div>
+    <h3>Question number Two</h3>
+    
+
+    
+</body>
+</html>
